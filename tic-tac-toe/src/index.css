@@ -1,0 +1,19 @@
+.ulStyle {
+  display: grid;
+  grid-template-columns: repeat(3, 60px); /* 3 columns */
+  gap: 5px;                               /* space between boxes */
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: max-content;
+}
+.ulStyle li {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: #eee;
+  cursor: pointer;
+}
